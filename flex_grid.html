@@ -1,0 +1,81 @@
+
+<html>
+<head>
+		<link type="text/css" rel = "stylesheet" href="style.css"/>
+        <meta name="viewport" charset="utf-8" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+		
+</head>
+	<body>
+		<h1>			Zadanie 1 		</h1>
+		<div class="table-1"> 
+		<!-- aby tabela mogła być weższa niż minimalna długość tekstu,
+		trzeba użyć css grid, zwykła tabela na to nigdy nie pozwoli -->
+			<div class="column">
+				<span>tekst tekst</span>
+			</div>
+			<div class="column">
+				<span>długiwyraz tekst tekst</span>
+			</div>
+			<div class="column">
+				<span>bardzodługiwyraz tekst tekst tekst</span>
+			</div>
+
+				<!-- następny rząd -->
+			<div class="column">
+				<span>tekst tekst</span>
+			</div>
+			<div class="column">
+				<span>długiwyraz tekst tekst</span>
+			</div>
+			<div class="column">
+				<span>bardzodługiwyraz tekst tekst tekst</span>
+			</div>
+		</div>
+		
+		
+		
+		
+		<h1>
+			Zadanie 2
+		</h1>
+		<div class="kontener-kolumnowy">
+			<div class="naglowek">
+				nagłówek nagłówek nagłówek nagłówek
+			</div>
+			<div class="cialo"> <!-- kontener rzedowy musi być wewnątrz innego obiektu, aby móc zachować zdolność ograniczania wysokości tabeli -->
+				<div class="kontener-rzedowy">
+					<div class="table-1-container">
+						<div class="table-1">
+							<div class="column">
+								<span>tekst tekst</span>
+							</div>
+							<div class="column">
+								<span>długiwyraz tekst tekst</span>
+							</div>
+							<div class="column">
+								<span>bardzodługiwyraz tekst tekst tekst</span>
+							</div>
+							<!-- następny rząd -->
+							<div class="column">
+								<span>tekst tekst</span>
+							</div>
+							<div class="column">
+								<span>długiwyraz tekst tekst</span>
+							</div>
+							<div class="column">
+								<span>bardzodługiwyraz tekst tekst tekst</span>
+							</div>
+						</div>
+					</div>
+					<div class="obok-tabeli">
+						Obiekt obok tabeli, 50% szerokości, definiuje maks wysokość tabeli
+					</div>
+				</div>
+			</div>
+			<div class="stopka">
+				stopka stopka stopka stopka
+			</div>
+
+		</div>
+	</body>
+</html>
